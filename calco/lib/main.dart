@@ -19,12 +19,8 @@ class _calState extends State<cal> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Container(
-          color: Colors.deepOrange[10],
-          decoration: BoxDecoration(
-            color: Colors.deepOrange[10],
-          ),
-          child: ListView(
+        body: Stack(
+          ListView(
             children: [
               Column(
                 children: [
